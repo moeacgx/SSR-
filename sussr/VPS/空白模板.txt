@@ -1,0 +1,33 @@
+#VPS配置空模板
+
+#SSR配置
+#修改时不要删除=号后的单引号！
+label='这是一个标题' #给他一个名字吧！
+ip='1.2.3.4' #SSR的IP
+port='8080' #SSR的端口
+password='supppig' #密码
+method='chacha20' #加密方式
+protocol='auth_sha1' #协议
+protocol_param='$' #协议参数
+obfs='http_simple' #混淆
+#host='wap.10086.cn' #host。删除最前面的#号起效。否则遵循setting.ini中的配置。
+
+#↓DNS地址(无#开头为启用的dns)
+#dns='114.114.114.114'
+#dns='8.8.8.8'
+
+#===gost服务器设置===
+#↓gost服务器地址(留空用SSR服务器IP)
+gostip=''
+
+#↓服务器的gost密码
+gostpwd='supppig'
+
+#↓服务器udp端口/gost端口
+udpport=''
+
+#===预留接口===
+#如果需要这些选项覆盖全局设置，请删除前面的#
+
+#↓破视频版权(0=关闭，1=开启，删除#起效。否则遵循setting.ini中的配置。)
+#pbg=0
